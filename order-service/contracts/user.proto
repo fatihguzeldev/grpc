@@ -1,0 +1,26 @@
+syntax = "proto3";
+
+// codegen namespace'i - user.v1.UserDirectory
+package user.v1;
+
+// server'ın sunduğu servis
+service UserDirectory {
+  rpc GetUserById(GetUserByIdRequest) returns (UserResponse);
+  rpc CreateUser(CreateUserRequest) returns (UserResponse);
+}
+
+// messages
+message GetUserByIdRequest {
+  string user_id = 1;
+}
+
+message CreateUserRequest {
+  string email = 1;
+  string name = 2;
+}
+
+message UserResponse {
+  string id = 1;
+  string email = 2;
+  string name = 3;
+}

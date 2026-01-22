@@ -1,0 +1,24 @@
+# node
+node_modules/
+
+# build / generated
+dist/
+build/
+src/grpc/
+
+# logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# env
+.env
+.env.*
+
+# os / editor
+.DS_Store
+.vscode/
+.idea/
+
+# typescript
+*.tsbuildinfo

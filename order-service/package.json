@@ -1,0 +1,23 @@
+{
+  "name": "order-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "@types/node": "25.0.9",
+    "grpc-tools": "1.13.1",
+    "ts-node": "10.9.2",
+    "ts-proto": "2.11.0",
+    "typescript": "5.9.3"
+  },
+  "dependencies": {
+    "@grpc/grpc-js": "1.14.3"
+  }
+}
