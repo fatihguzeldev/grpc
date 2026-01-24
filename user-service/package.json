@@ -4,15 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "gen:grpc": "buf generate contracts"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "commonjs",
   "devDependencies": {
+    "@bufbuild/buf": "1.64.0",
     "@types/node": "25.0.9",
-    "grpc-tools": "1.13.1",
     "ts-node": "10.9.2",
     "ts-proto": "2.11.0",
     "typescript": "5.9.3"
